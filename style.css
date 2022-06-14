@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Ubuntu&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #001844;
+}
+
+header{
+    padding-top: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+p{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.1em;
+    line-height: 1.5em;
+    color: #fff;
+}
+
+h1{
+    font-family: 'Ubuntu', sans-serif;
+    color: #fff;
+}
+
+h2{
+    font-family: 'Ubuntu', sans-serif;
+    font-style: italic;
+    text-transform: uppercase;
+    color: #fff;
+    line-height: 1.2;
+    font-size: 48px;
+}
+
+nav{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+nav ul{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 0;
+}
+
+nav ul li{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;    
+    font-size: 1.7em;
+}
+
+nav ul li a:hover{
+    transition: 0.4s;
+    text-decoration: underline;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 5%;
+}
+
+.custom-button {
+    width: 40%;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 15px;
+    outline: none;
+    border-radius: 2px;
+    cursor: pointer;
+    box-shadow: none;
+    text-decoration: none;
+    display: block;
+    box-sizing: border-box;
+    color: white;
+    border: 1px solid #fff;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.custom-button:hover {
+    transition: background-color 0.5s, box-shadow 0.5s, border 0.5s;
+}
+
+img{
+    width: 45%;
+}
+
+#art-1{
+    width: 25%;
+    margin-right: 5%;
+}
+
+#art-2{
+    width: 40%;
+}
+
+footer{
+    padding-top: 5%;
+    padding-bottom: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#trt{
+    margin-bottom: 3%;
+    background-color: #fff;
+    width: 86%;
+    height: 2px;
+    border-radius: 5px;
+    margin: 0 7% 0 7%;
+}
